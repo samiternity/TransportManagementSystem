@@ -1,0 +1,183 @@
+/* ======================================================
+   TMS - Professional Light Enterprise Theme
+   Color Palette:
+     Background: #F8F9FA (off-white)
+     Surface:    #FFFFFF (white)
+     Border:     #E9ECEF (light gray)
+     Text Primary: #2D3436 (dark slate)
+     Text Muted:   #636E72 (gray)
+     Accent Primary: #0984E3 (royal blue)
+     Accent Secondary: #00B894 (teal)
+     Danger:     #D63031 (red)
+     Warning:    #FDCB6E (yellow)
+   ====================================================== */
+
+/* ---------- Global ---------- */
+QWidget {
+    background-color: #F8F9FA;
+    color: #2D3436;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+}
+
+QMainWindow {
+    background-color: #F8F9FA;
+}
+
+/* ---------- Scrollbars ---------- */
+QScrollBar:vertical {
+    background: #F1F3F5;
+    width: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #CED4DA;
+    min-height: 30px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #ADB5BD;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+/* ---------- Sidebar ---------- */
+#SidebarFrame {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E9ECEF;
+}
+
+#SidebarTitle {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #0984E3;
+    padding: 10px 0;
+}
+
+#NavList {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+#NavList::item {
+    color: #636E72;
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin: 2px 0;
+}
+#NavList::item:hover {
+    background-color: #F1F3F5;
+    color: #2D3436;
+}
+#NavList::item:selected {
+    background-color: #E3F2FD;
+    color: #0984E3;
+    font-weight: bold;
+    border-left: 4px solid #0984E3;
+}
+
+/* ---------- Buttons ---------- */
+QPushButton {
+    background-color: #0984E3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background-color: #0771C4;
+}
+QPushButton:pressed {
+    background-color: #055FA5;
+}
+QPushButton:disabled {
+    background-color: #DFE6E9;
+    color: #B2BEC3;
+}
+
+/* Secondary Button */
+QPushButton#secondaryBtn {
+    background-color: #FFFFFF;
+    color: #636E72;
+    border: 1px solid #CED4DA;
+}
+QPushButton#secondaryBtn:hover {
+    background-color: #F8F9FA;
+    border-color: #ADB5BD;
+}
+
+/* Danger Button */
+QPushButton#dangerBtn {
+    background-color: #D63031;
+}
+QPushButton#dangerBtn:hover {
+    background-color: #B52828;
+}
+
+/* ---------- Inputs ---------- */
+QLineEdit, QDateEdit, QSpinBox, QComboBox {
+    background-color: #FFFFFF;
+    color: #2D3436;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+QLineEdit:focus, QDateEdit:focus {
+    border: 1px solid #0984E3;
+}
+
+/* ---------- Tables ---------- */
+QTableWidget {
+    background-color: #FFFFFF;
+    alternate-background-color: #F8F9FA;
+    color: #2D3436;
+    border: 1px solid #E9ECEF;
+    border-radius: 8px;
+    gridline-color: #E9ECEF;
+    selection-background-color: #E3F2FD;
+    selection-color: #0984E3;
+}
+QHeaderView::section {
+    background-color: #F8F9FA;
+    color: #636E72;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #E9ECEF;
+}
+
+/* ---------- Cards ---------- */
+QFrame#StatCard {
+    background-color: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 12px;
+}
+QFrame#StatCard:hover {
+    border-color: #0984E3;
+}
+
+/* ---------- Typography ---------- */
+#PageTitle {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #2D3436;
+}
+#PageSubtitle {
+    font-size: 11pt;
+    color: #636E72;
+}
+
+/* ---------- Login ---------- */
+#LoginCard {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+#LoginTitle {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #0984E3;
+}
