@@ -20,7 +20,8 @@ The Transport Management System is a multi-user application that streamlines tra
 - **Security:** bcrypt (password hashing), cryptography (data encryption)
 - **Reporting:** ReportLab (PDF generation), Matplotlib (data visualization)
 
-## Demo
+## Demo  
+(Click to view full video on youtube)
 
 [![Transport Management System Demo](https://img.youtube.com/vi/25aBhh11mJk/0.jpg)](https://www.youtube.com/watch?v=25aBhh11mJk)
 
